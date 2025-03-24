@@ -1,11 +1,11 @@
 body{
   background-color: #252525;
   color: white;
+  margin: 16px 16px 16px 16px;
 }
 a{
-  color: wheat;
-
+  color: white;
 }
 a:visited{
-  color: wheat;
+  color: white;
 }
