@@ -35,14 +35,14 @@ a:visited{
 .table-cell {
   display: table-cell;
   padding: 8px 16px;
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font-size: 16px;
-  background-color: #f4f4f4;
+  background-color: #1e1f22;
 }
 
 .table-cell:hover {
-  background-color: #e0e0e0;
+  background-color: #2b2d30;
 }
