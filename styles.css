@@ -18,3 +18,27 @@ a:visited{
   flex-direction: row;
   justify-content: center;
 }
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  background-color: #f4f4f4;
+}
+
+.table-cell:hover {
+  background-color: #e0e0e0;
+}
