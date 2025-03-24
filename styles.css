@@ -6,6 +6,9 @@ body{
   display: flex;
   flex-direction: column;
 }
+.main{
+  padding: 24px;
+}
 a{
   color: white;
 }
@@ -40,9 +43,9 @@ a:visited{
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  background-color: #1e1f22;
+  background-color: #2b2d30;
 }
 
 .table-cell:hover {
-  background-color: #2b2d30;
+  background-color: #43454a;
 }
