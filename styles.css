@@ -55,3 +55,7 @@ a:visited{
 .table-cell:hover {
   background-color: #43454a;
 }
+
+img{
+  max-width: 640px;
+}
