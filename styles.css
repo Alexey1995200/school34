@@ -10,8 +10,6 @@ body{
   font-size: 32px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 16px;
 
 }
 .main{
