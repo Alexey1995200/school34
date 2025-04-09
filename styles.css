@@ -12,10 +12,10 @@ body{
   flex-direction: column;
   gap: 8px;
   padding: 16px;
-  
+
 }
 .main{
-  padding: 24px;
+  padding: 4px;
   background-color: #181a1b;
 }
 a{
