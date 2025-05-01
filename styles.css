@@ -74,3 +74,6 @@ img{
 .width-240px{
   width: 240px;
 }
+.prevent-select {
+  user-select: none; /* Standard syntax */
+}
