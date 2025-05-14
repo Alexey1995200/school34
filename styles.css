@@ -1,9 +1,9 @@
-*{
+* {
   color: white;
   font-size: 16px;
 }
 
-body{
+body {
   background-color: #1c1e1f;
   color: white;
   font-family: sans-serif;
@@ -12,19 +12,22 @@ body{
   flex-direction: column;
 
 }
-.main{
+
+.main {
   padding: 4px;
   background-color: #181a1b;
 }
-a{
+
+a {
   color: white;
 }
-a:visited{
-  color: white!important;
+
+a:visited {
+  color: white !important;
   text-decoration: none;
 }
 
-.current{
+.current {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,21 +60,25 @@ a:visited{
   background-color: #43454a;
 }
 
-img{
+img {
   max-width: 800px;
 }
 
-.flex-row{
+.flex {
+  display: flex
+}
+
+.flex-row {
   display: flex;
   flex-direction: row;
   gap: 4px;
   padding: 4px;
 }
 
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 16px;
   padding: 4px
 }
 
@@ -79,9 +86,10 @@ img{
   width: 120px;
 }
 
-.width-240px{
+.width-240px {
   width: 240px;
 }
+
 .prevent-select {
   user-select: none; /* Standard syntax */
 }
