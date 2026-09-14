@@ -13,6 +13,13 @@ body {
 
 }
 
+#mainframe{
+  body{
+    background-color: #212326; !important;
+
+  }
+}
+
 .main {
   padding: 4px;
   background-color: #181a1b;
@@ -31,10 +38,11 @@ a:visited {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 16px 16px;
+  /*padding: 16px 16px;*/
   h1{
     font-size: 64px;
     font-family: serif;
+    margin: auto;
   }
 }
 

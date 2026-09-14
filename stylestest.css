@@ -1,0 +1,90 @@
+
+/* Базові налаштування */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  overflow: hidden;
+}
+
+#headerFrame {
+  display: block;
+  width: 100%;
+  height: 10dvh;
+  border: 0;
+}
+
+
+.site-header {
+  width: 100%;
+  border: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.site-header iframe {
+  display: block;
+  width: 100%;
+  /*height: 100%;*/
+  border: 0;
+}
+
+/* Основна структура */
+.site-layout {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  height: calc(100vh - 120px);
+  width: 100%;
+}
+
+/* Ліве меню */
+.sidebar {
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  border: 0;
+}
+
+.sidebar iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Основний вміст */
+.content {
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Адаптивність для вузьких екранів */
+@media (max-width: 600px) {
+  .site-layout {
+    grid-template-columns: 150px minmax(0, 1fr);
+  }
+
+  .sidebar {
+    width: 150px;
+  }
+}
